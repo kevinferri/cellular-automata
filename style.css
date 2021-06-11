@@ -1,0 +1,19 @@
+body {
+  background: rgb(250, 250, 250);
+  font-family: Helvetica, sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+.cell {
+  display: inline-flex;
+  border: 1px solid rgb(150, 150, 150);
+  height: 5px;
+  width: 5px;
+}
+
+.cell.alive {
+  background-color: rgb(50, 50, 50);
+}
